@@ -1,9 +1,9 @@
 body {
     font-family: system-ui, sans-serif;
-    padding: 24px;
-    color: #1b1b1f;
+    padding: 54px;
+    color: #5b0000;
 }
 
 #greeting {
-    color: #3b82f6;
+    color: #000000;
 }
