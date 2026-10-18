@@ -1,4 +1,8 @@
-   body {
-       background-color: #121212;
-       color: #e0e0e0;
-   }
+        body {
+            background-color: #121212; /* Мягкий чёрный цвет */
+            color: #e0e0e0; /* Светло-серый текст (приятнее для глаз, чем чисто белый) */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
