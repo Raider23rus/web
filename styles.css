@@ -1,4 +1,18 @@
+/* Делаем фон страницы чёрным, а текст белым */
 body {
-        background-color: #121212;
-        color: #e0e0e0;
-   }
+    background-color: #000000; /* Чистый чёрный цвет */
+    color: #ffffff;            /* Белый цвет текста */
+    font-family: Arial, sans-serif; /* Простой и читаемый шрифт */
+    margin: 0;
+    padding: 40px;             /* Немного отступа от краёв экрана */
+    display: flex;
+    justify-content: center;   /* Центрируем текст по горизонтали */
+    align-items: center;       /* Центрируем текст по вертикали */
+    height: 100vh;             /* Высота на весь экран */
+}
+
+/* Дополнительный стиль для заголовка */
+h1 {
+    font-weight: normal;
+    letter-spacing: 2px;
+}
